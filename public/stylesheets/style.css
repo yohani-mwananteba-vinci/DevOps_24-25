@@ -4,9 +4,15 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-footer,
 header {
   background-color: orange;
+  color: white;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: green;
   color: white;
   padding-bottom: 20px;
   text-align: center;
