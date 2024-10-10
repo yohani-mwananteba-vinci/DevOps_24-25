@@ -18,7 +18,7 @@ router.get('/', (req, res, next) => {
 
 /* check login and password */
 router.post('/login', (req, res, next) => {
-    console.log("USERS LOGIN");
+    console.log("users  login");
     // User in DB ? -> return the record of the user if found
     const userFound = User.find(req.body.userLogin);
     console.log("User found" + JSON.stringify(userFound));
