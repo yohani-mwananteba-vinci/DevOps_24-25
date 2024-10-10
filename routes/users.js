@@ -21,7 +21,7 @@ router.post('/login', (req, res, next) => {
     console.log("USERS LOGIN");
     // User in DB ? -> return the record of the user if found
     const userFound = User.find(req.body.userLogin);
-    console.log("User found" + JSON.stringify(userFound));
+    console.log("The new User who was found is: " + JSON.stringify(userFound));
     if (userFound) {
         if (userFound.active == false) {
             verificationCompteDesactiver(req, res);
